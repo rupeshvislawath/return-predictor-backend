@@ -6,8 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class ReturnPredictorBackendApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(ReturnPredictorBackendApplication.class, args);
-	}
-
+  public static void main(String[] args) {
+    SpringApplication.run(ReturnPredictorBackendApplication.class, args);
+  }
 }
