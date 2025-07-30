@@ -10,10 +10,10 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class PredictionResponse {
+public class ReturnPredictionResponse {
 
   /** Return likelihood score between 0.0 and 1.0 */
-  private Double returnLikelihood;
+  private Double returnProbability;
 
   /** Risk level classified as LOW, MEDIUM, or HIGH */
   private String riskLevel;
