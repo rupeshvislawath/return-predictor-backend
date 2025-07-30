@@ -14,3 +14,11 @@ management:
   endpoint:
     health:
       show-details: always
+
+logging:
+  level:
+    com.returnpredictor.api.controller.ReturnPredictionController: WARN
+    com.returnpredictor: INFO
+    root: INFO
+    org.springframework.web: INFO
+    org.hibernate.SQL: DEBUG
