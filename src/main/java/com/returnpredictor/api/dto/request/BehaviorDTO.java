@@ -7,6 +7,7 @@ import lombok.Data;
 public class BehaviorDTO {
 
   @NotNull private Integer viewCount;
+  @NotNull private Double pastCancellationRate;
 
   @NotNull private Integer addedToCartCount;
 
